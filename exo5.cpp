@@ -2,15 +2,16 @@
 using namespace std;
 int main()
 {
-    double pi(3.14159);
-    bool lampe(true);
-    char lettre('A');
-    string chaine("C'est une chaîne de caractères");
+    int a(1), b(2), c(3);
+    bool lampe(true), diode(false);
+    char lettre1('A'), lettre2('B'), lettre3('C');
+    string chaine1("C'est une chaîne"), chaine2(" de caractères");
 
-    cout << "le chiffre pi a comme valeur" << pi << "." << endl;
-    cout << "La lammpe est : " << lampe << " (O pour éteinte et 1 pour allumée)" << endl;
-    cout << "La lettre à afficher est : " << lettre << "." << endl;
-    cout << "La chaîne de caractères à afficher est : " << chaine << "." << endl;
+    cout << "Les 3 chiffres pi sont" << a << "," << b << "et" << c <<endl;
+    cout << "La lammpe est : " << lampe << "<et le diode est :" << diode;
+    cout << " (O pour eteinte et 1 pour allumee)" << endl;
+    cout << "Las lettres à afficher sont : " << lettre1 << "," << lettre2 << "et" << lettre3 <<endl;
+    cout << "Les chaînes de caractères à afficher sont : " << chaine1 << chaine2 << "." << endl;
 
     return 0;
 }
